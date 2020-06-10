@@ -1,0 +1,17 @@
+let DEBUG_LOGGING_ENABLED = true;
+
+export function enableDebugLogging(enable: boolean): void {
+  DEBUG_LOGGING_ENABLED = enable;
+}
+
+export function debugLog(...args: any[]): void {
+  if (!DEBUG_LOGGING_ENABLED) {
+    return;
+  }
+
+  if (console.info) {
+    console.info.apply(console, args as any);
+  } else {
+    console.log.apply(console, args as any);
+  }
+}

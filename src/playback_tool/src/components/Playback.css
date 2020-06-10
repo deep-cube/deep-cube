@@ -1,0 +1,56 @@
+.main {
+  margin: 20px;
+  display: flex;
+}
+.containerLeft {
+  width: 49vw;
+  max-width: 50%;
+}
+
+.containerRight {
+  margin-left: 20px;
+}
+.inputContainer {
+  margin: 20px;
+}
+
+.moveContainer {
+  font-size: 40px;
+  width: 50%;
+  margin: auto;
+  border: 3px gray solid;
+  padding: 10px;
+}
+
+.moveText {
+  color: gray;
+}
+
+.moveTextPrimary {
+  color: red;
+}
+
+.cubeContainer {
+  margin: auto;
+  padding: 20px;
+}
+
+.dataContainer {
+  font-family: monospace;
+  font-size: large;
+  text-align: left;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.debugContainer {
+  font-family: monospace;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+.unsaveHint {
+  color: red;
+}

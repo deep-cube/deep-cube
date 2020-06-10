@@ -1,0 +1,9 @@
+.App {
+  margin-top: 20px;
+}
+
+.stats {
+  font-family: courier, serif;
+  margin: auto;
+  max-width: 50%;
+}

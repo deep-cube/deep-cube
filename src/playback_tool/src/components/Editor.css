@@ -1,0 +1,26 @@
+.entry_container {
+    display: flex;
+    height: 200px;
+    overflow: scroll;
+    flex-wrap: wrap;
+    background-color: azure;
+}
+
+.entry_container span {
+    width: 20px;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.active {
+    color: red;
+}
+
+.inactive {
+    color: gray;
+}
+
+.pending {
+    color: yellowgreen;
+}
