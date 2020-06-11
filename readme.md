@@ -1,8 +1,14 @@
 # deep-cube
 
-## environment
+## saved models
 
-update this as you install more packages
+download the saved model weights from 
+
+https://drive.google.com/drive/folders/1UZbwK2z4bBqkwBPiEsAhEZBkhvKNRlfE?usp=sharing
+
+extract `saved_models/` folder to the repo root
+
+## environment
 
 ```
 conda create -y -n cube python=3.7
