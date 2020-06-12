@@ -1,5 +1,10 @@
 # deep-cube
 
+## video
+
+video presentation at 
+https://youtu.be/RxsI5vvTb7g 
+
 ## saved models
 
 download the saved model weights from 
