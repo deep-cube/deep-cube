@@ -1,4 +1,4 @@
-# DeepCube: Transcribing Rubik’s Cube Moves with Action Recognition
+# Transcribing Rubik’s Cube Moves with Action Recognition
 
 ## video
 
